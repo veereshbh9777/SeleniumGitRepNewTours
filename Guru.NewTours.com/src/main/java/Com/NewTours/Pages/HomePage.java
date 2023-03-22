@@ -45,14 +45,14 @@ public class HomePage extends baseTest {
 	@FindBy(xpath = "//a[text()='Car Rentals']")
 	WebElement clickCarRentals;
 
-	@FindBy(xpath = "//a[text()='Cruises']")
-	WebElement clickCruises;
-
-	@FindBy(xpath = "//a[text()='Destinations']")
-	WebElement clickDestinations;
-
-	@FindBy(xpath = "//a[text()='Vacations']")
-	WebElement clickVacations;
+//	@FindBy(xpath = "//a[text()='Cruises']")
+//	WebElement clickCruises;
+//
+//	@FindBy(xpath = "//a[text()='Destinations']")
+//	WebElement clickDestinations;
+//
+//	@FindBy(xpath = "//a[text()='Vacations']")
+//	WebElement clickVacations;
 
 	public void verifyHomePage() throws InterruptedException {
 		if (driver.getCurrentUrl().equals("https://demo.guru99.com/test/newtours/")) {
